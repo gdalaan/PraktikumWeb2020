@@ -1,0 +1,49 @@
+.body{
+    background-color: #173947;
+
+}
+
+.body u{
+    font-size: 36px;
+    font-family: The Delicate DEMO;
+    font-weight: bold;
+    color: #35a9db;
+    font-style: i;
+    -webkit-text-stroke: 1px white; 
+}
+
+.table{
+    font-family: monospace;
+    color: black;
+    border-collapse: collapse;
+    width: 70%;
+    position: relative;
+
+}
+
+.table, th, td{
+    border: 1px solid blue;
+    padding:  8px 20px;
+    text-align: center;
+}
+
+.table thead{
+    background-color:#35a9db;
+}
+
+.table caption{
+    font-size: 18px;
+    color: whitesmoke;
+}
+
+.genap{
+    background-color: lightgray;
+}
+
+.ganjil{
+    background-color: whitesmoke;
+}
+
+.table tfoot{
+    background-color: #35a9db;
+}
