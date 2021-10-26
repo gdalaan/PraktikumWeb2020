@@ -1,0 +1,60 @@
+body{
+    background-image: url(seablur.jpg);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+.button{
+    background-color: white;
+    border: 2px solid #F90;
+    color: #F90;
+    border-radius: 7px;
+    width: 80px;
+    height: 80px;
+    font-size: 35px;
+    margin: 3px;
+    text-align: center;
+    font-family: 'Honeybae';
+    cursor: pointer;
+}
+
+.screen{
+    background-color: white;
+    border: 3px solid #F90;
+    color: #F90;
+    border-radius: 7px;
+    width: 346px;
+    font-size: 50px;
+    font-family: 'Digital-7';
+    margin: 4px; 
+    padding: 8px;
+}
+.calc{
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.lines{
+    background-color: #FF6;
+    height: 580px;
+    width: 370px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    border: 15px solid #F9F;
+    border-radius: 5px;
+}
+h4{
+    position: absolute;
+    top: 12px;
+    left: 15px;
+    font-family: 'The Delicate DEMO';
+    font-size: 19px;
+    color: #F90;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #F90;
+
+}
